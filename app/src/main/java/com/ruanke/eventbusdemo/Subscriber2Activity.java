@@ -23,7 +23,7 @@ public class Subscriber2Activity extends AppCompatActivity {
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Subscriber2Activity.this, Subscriber2Activity.class));
+                startActivity(new Intent(Subscriber2Activity.this, PublisherActivity.class));
             }
         });
     }
