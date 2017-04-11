@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_send_event"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:text="推送消息"/>
+
+    <Button
+        android:id="@+id/btn_send_sticky_event"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:text="推送黏性消息"/>
+
+    <Button
+        android:id="@+id/btn_start_sticky_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转跳到能接收到黏性事件的页面"/>
+</LinearLayout>
